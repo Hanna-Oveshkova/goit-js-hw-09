@@ -17,3 +17,101 @@
     max-width: 1200px;
   }
 }
+.gallery {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding: 0;
+  margin: 0;
+  width: 1128px;
+  padding: 24px 156px;
+}
+
+.gallery-item {
+  width: 360px;
+}
+
+.gallery-image {
+  width: 360px;
+  height: 200px;
+  display: block;
+  cursor: pointer;
+}
+
+.sl-wrapper .sl-image img {
+  max-width: 1112vw;
+  max-height: 640vh;
+}
+
+.sl-wrapper .sl-close,
+.sl-wrapper .sl-navigation button {
+  color: #fff !important;
+}
+
+.sl-wrapper {
+  background: rgba(46, 47, 66, 0.8);
+}
+
+.feedback-form {
+  width: 408px;
+  margin: 50px auto; /* по центру сторінки */
+  padding: 24px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+
+  /* line-height: 24px; */
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.feedback-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  font-size: 16px;
+  color: #2e2f42;
+  gap: 8px;
+}
+
+.feedback-form input,
+.feedback-form textarea {
+  padding: 10px 12px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  font-size: 14px;
+  font-family: inherit;
+  transition: border-color 0.3s;
+}
+
+.feedback-form input:focus,
+.feedback-form textarea:focus {
+  outline: none;
+  border-color: #4e75ff;
+}
+
+.feedback-form button {
+  width: 95px;
+  height: 40px;
+  padding: 8px 16px;
+  background-color: #4e75ff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.feedback-form button:hover {
+  background-color: #6c8cff;
+}
